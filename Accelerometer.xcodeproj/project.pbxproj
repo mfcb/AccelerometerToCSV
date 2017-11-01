@@ -14,6 +14,7 @@
 		245C60561F99EC7F0099FE84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245C60541F99EC7F0099FE84 /* LaunchScreen.storyboard */; };
 		245C60611F99EC800099FE84 /* AccelerometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245C60601F99EC800099FE84 /* AccelerometerTests.swift */; };
 		245C606C1F99EC800099FE84 /* AccelerometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245C606B1F99EC800099FE84 /* AccelerometerUITests.swift */; };
+		246F1BC11FA390DB00B2D205 /* CSVExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F1BC01FA390DB00B2D205 /* CSVExporter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		245C60671F99EC800099FE84 /* AccelerometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		245C606B1F99EC800099FE84 /* AccelerometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerUITests.swift; sourceTree = "<group>"; };
 		245C606D1F99EC800099FE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246F1BC01FA390DB00B2D205 /* CSVExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVExporter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				245C60521F99EC7F0099FE84 /* Assets.xcassets */,
 				245C60541F99EC7F0099FE84 /* LaunchScreen.storyboard */,
 				245C60571F99EC7F0099FE84 /* Info.plist */,
+				246F1BC01FA390DB00B2D205 /* CSVExporter.swift */,
 			);
 			path = Accelerometer;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				245C604E1F99EC7F0099FE84 /* ViewController.swift in Sources */,
+				246F1BC11FA390DB00B2D205 /* CSVExporter.swift in Sources */,
 				245C604C1F99EC7F0099FE84 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S35M5NS9X7;
 				INFOPLIST_FILE = Accelerometer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mfcb.Accelerometer;
@@ -441,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S35M5NS9X7;
 				INFOPLIST_FILE = Accelerometer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mfcb.Accelerometer;
